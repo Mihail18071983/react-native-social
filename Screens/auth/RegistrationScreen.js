@@ -219,7 +219,7 @@ const RegistrationScreens = ({ navigation }) => {
                           password: value,
                         }))
                       }
-                      keyboardType="numeric"
+                      keyboardType="default"
                       secureTextEntry={isSecureEntry}
                       style={{
                         ...styles.input,
