@@ -521,7 +521,7 @@ const styles = StyleSheet.create({
 
   imageWrapper: {
     left: "35%",
-    top: "-10%",
+    top: 0,
     zIndex: 100,
     width: 120,
     height: 120,
@@ -531,7 +531,7 @@ const styles = StyleSheet.create({
 
   changeAvatarBtn: {
     position: "absolute",
-    top: "-15%",
+    top: 0,
     left: "90%",
     fontSize: 16,
     lineHeight: 19,
