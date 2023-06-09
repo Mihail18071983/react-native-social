@@ -170,7 +170,7 @@ const ProfileScreen = ({ navigation, route }) => {
         setLoading(false);
       } catch (err) {
         console.log(err);
-        Alert.error('Error uploading avatar')
+        Alert.alert('Error uploading avatar')
         setLoading(false);
       }
     }
@@ -233,7 +233,7 @@ const ProfileScreen = ({ navigation, route }) => {
       }
     } catch (err) {
       console.log(err);
-      Alert.error('Error updating avatar')
+      Alert.alert('Error updating avatar')
       setLoading(false);
     }
   };
@@ -263,7 +263,7 @@ const ProfileScreen = ({ navigation, route }) => {
       }
     } catch (error) {
       console.error('Error updating likes count:', error);
-      Alert.error('Error updating likes count')
+      Alert.alert('Error updating likes count')
     }
   };
 
@@ -282,7 +282,7 @@ const ProfileScreen = ({ navigation, route }) => {
         }
       } catch (error) {
         console.error('Error fetching likes count:', error);
-        Alert.error('Error fetching likes count')
+        Alert.alert('Error fetching likes count')
       }
     };
 
