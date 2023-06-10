@@ -9,6 +9,8 @@ import {
   signOut,
 } from "firebase/auth";
 
+import { Alert } from "react-native";
+
 const { updateUserProfile, authStateChange, authLogOut } = authSlice.actions;
 
 export const authLoginUser =
@@ -28,6 +30,7 @@ export const authLoginUser =
       const errorMessage = err.message;
       console.log("errorCode", errorCode);
       console.log("errorMessage", errorMessage);
+      Alert.alert(err.message)
     }
   };
 
@@ -76,6 +79,7 @@ export const authSignUpUser =
       const errorMessage = err.message;
       console.log("errorCode", errorCode);
       console.log("errorMessage", errorMessage);
+      Alert.alert(err.message)
     }
   };
 
