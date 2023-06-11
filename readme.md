@@ -1,11 +1,18 @@
-<h1 style="color:blue;font-size:24px;font-weight:bold">Social</h1>
+# Social
 
-Social is a simple mobile application built using the expo react-native with storing users data in firebase.
+Social is a simple mobile application which allows users creating posts and comments, make reaction for the actions other customers.
 
 ## Getting started
 
- For using social app you need to install the expo go on your mobile device.  You can download it from play market on android device or app store from ios device. 
- After installing expo i need open it and enter link exp://exp.host/@mihail18071983/social?release-channel=default. 
+ - For launching social app on mobile device you need to install the expo go.  You can download it from play market on android device or app store from ios device. After installing expo i need open it and enter link exp://exp.host/@mihail18071983/social?release-channel=default.
+ - For launching social app on desktop you need:
+ 1. Open your IDE.
+ 2. clone repo from github using git cline https://github.com/Mihail18071983/react-native-social.git on your pc.
+ 3. Install the Expo Client app on your desktop. You can download it from the Expo website: https://expo.io/tools#client
+ 4. set up dependencies using npm install or expo install.
+ 5. Run the application using npm start or expo start.
+ 6. Scan the qr code which appears in your terminal.
+
 
 ## Usage 
 
@@ -17,3 +24,8 @@ Social is a simple mobile application built using the expo react-native with sto
  For logging out you need clicking by ![Log out image][def]
 
 [def]: ./assets/images/log-out.png
+
+## Technologies 
+
+Social application was created with expo react-native. As a state managment redux-toolkit was used. Users data was kept in firebase firestore.
+
