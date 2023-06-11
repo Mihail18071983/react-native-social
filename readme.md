@@ -4,8 +4,13 @@ Social is a simple mobile application which allows users creating posts and comm
 
 ## Getting started
 
- - For launching social app on mobile device you need to install the expo go.  You can download it from play market on android device or app store from ios device. After installing expo i need open it and enter link exp://exp.host/@mihail18071983/social?release-channel=default.
- - For launching social app on desktop you need:
+ ###  For launching social app on mobile device you need:
+
+ 1. Install the expo go.  You can download it from play market on android device or app store from ios device.
+ 2. Open expo go on mobile device and enter link exp://exp.host/@mihail18071983/social?release-channel=default in address field.
+
+ ###  For launching social app on desktop you need:
+
  1. Open your IDE.
  2. clone repo from github using git cline https://github.com/Mihail18071983/react-native-social.git on your pc.
  3. Install the Expo Client app on your desktop. You can download it from the Expo website: https://expo.io/tools#client
