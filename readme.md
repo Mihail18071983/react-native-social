@@ -1,4 +1,4 @@
-# Social
+<h1 style="color:blue;font-size:24px;font-weight:bold">Social</h1>
 
 Social is a simple mobile application built using the expo react-native with storing users data in firebase.
 
