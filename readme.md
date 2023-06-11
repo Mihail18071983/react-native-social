@@ -14,4 +14,6 @@ Social is a simple mobile application built using the expo react-native with sto
  If you want creating your personal post you should move to the Create posts screen in bottom tab pressing "+". For creating photo you can press by button "Create Photo" and camera will appears. You can crete photo by camera or dowloading it from storage with mobile device on your choice. Then you must set name of your photo and location. You can set location manually or press by location icon and it will be applied. You also have an oportunity to delete photo before submiting.
  You can move to the Posts screen  by clicking icon <img src="./assets/images/grid.png" alt="grid image"/>
  In this screen you can watch all users posts. You can add comment to the any post by clicking ![comments](./assets/images/message-circle.png). Then you will be redirected to the comment screen where you could add comment. For returning to the posts screen you need clicking by ![back](./assets/images/arrow-left.png)
- For logging out you need clicking by ![Log out image](./assets/images/log-out.png)
+ For logging out you need clicking by ![Log out image][def]
+
+[def]: ./assets/images/log-out.png
