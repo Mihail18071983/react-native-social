@@ -7,7 +7,7 @@ Social is a simple mobile application which allows users creating posts and comm
  ###  For launching social app on mobile device you need:
 
  1. Install the expo go.  You can download it from play market on android device or app store from ios device.
- 2. Open expo go on mobile device and enter link ![Link text](http://exp.host/@mihail18071983/social?release-channel=default)
+ 2. Open expo go on mobile device and enter link http://exp.host/@mihail18071983/social?release-channel=default
  
 
  ###  For launching social app on desktop you need:
