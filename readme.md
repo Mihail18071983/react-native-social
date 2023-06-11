@@ -1,6 +1,6 @@
 # Social
 
-Social is a simple mobile application which allows users creating posts and comments, make reaction for the actions other customers.
+Social is a simple mobile application that allows users to create posts and comments, and make reactions to the actions of other customers.
 
 ## Getting started
 
